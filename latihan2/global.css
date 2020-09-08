@@ -1,0 +1,77 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+	.Dasar{
+		width: 100vw;
+		height: 100vh;
+		margin: auto;
+		position: fixed;
+	}
+	.Satu{
+		background-color: #93e5e3;
+		width: 15vw;
+		height: 15vh;
+		margin: 1vw;
+
+		float: left;
+		position: relative;
+	}
+	.Dua {
+		background-color: #e9d3ff;
+		width: 20vw;
+		height: 15vh;
+		margin: 1vw;
+
+		float: left;
+		position: relative;
+	}
+	.Tiga {
+		background-color: #ffcccc;
+		width: 23vw;
+		height: 20vh;
+		margin: 1vw;
+
+		float: left;
+		position: relative;
+	}
+	.EmpatA {
+		background-color: #fcec98;
+		width: 23vw;
+		height: 30vh;
+		margin: 1vw;
+		margin-top: 2vh;
+
+		float: left;
+		position: relative;
+	}
+	.EmpatB {
+		background-color: #fcec98;
+		width: 23vw;
+		height: 24vh;
+		margin: 1vw;
+		margin-top: 8vh;				
+
+		float: left;
+		position: relative;
+	}
+	.EmpatC {
+		background-color: #fcec98;
+		width: 23vw;
+		height: 18vh;
+		margin: 1vw;
+		margin-top: 14vh;
+		
+		float: left;
+		position: relative;
+	}
+	.EmpatD {
+		background-color: #fcec98;
+		width: 23vw;
+		height: 12vh;
+		margin: 1vh;
+		margin-top: 20vh;
+
+		float: left;
+		position: relative;
+	}
