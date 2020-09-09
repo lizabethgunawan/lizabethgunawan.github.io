@@ -4,7 +4,6 @@
 	}
 	.Dasar{
 		width: 82vw;
-		height: 100vh;
 		margin: auto;
 	}
 	.Satu{
@@ -36,7 +35,7 @@
 	}
 	.EmpatA {
 		background-color: #fcec98;
-		width: 18.4vw;
+		width: 18.5vw;
 		height: 30vh;
 		margin: 1vw;
 		margin-top: 2vh;
