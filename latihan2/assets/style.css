@@ -3,14 +3,13 @@
 		padding: 0;
 	}
 	.Dasar{
-		width: 100vw;
+		width: 82vw;
 		height: 100vh;
 		margin: auto;
-		position: fixed;
 	}
 	.Satu{
 		background-color: #93e5e3;
-		width: 15vw;
+		width: 11.7vw;
 		height: 15vh;
 		margin: 1vw;
 
@@ -19,7 +18,7 @@
 	}
 	.Dua {
 		background-color: #e9d3ff;
-		width: 20vw;
+		width: 16.2vw;
 		height: 15vh;
 		margin: 1vw;
 
@@ -28,7 +27,7 @@
 	}
 	.Tiga {
 		background-color: #ffcccc;
-		width: 23vw;
+		width: 18.5vw;
 		height: 20vh;
 		margin: 1vw;
 
@@ -37,7 +36,7 @@
 	}
 	.EmpatA {
 		background-color: #fcec98;
-		width: 23vw;
+		width: 18.4vw;
 		height: 30vh;
 		margin: 1vw;
 		margin-top: 2vh;
@@ -47,7 +46,7 @@
 	}
 	.EmpatB {
 		background-color: #fcec98;
-		width: 23vw;
+		width: 18.5vw;
 		height: 24vh;
 		margin: 1vw;
 		margin-top: 8vh;				
@@ -57,7 +56,7 @@
 	}
 	.EmpatC {
 		background-color: #fcec98;
-		width: 23vw;
+		width: 18.5vw;
 		height: 18vh;
 		margin: 1vw;
 		margin-top: 14vh;
@@ -67,7 +66,7 @@
 	}
 	.EmpatD {
 		background-color: #fcec98;
-		width: 23vw;
+		width: 18.5vw;
 		height: 12vh;
 		margin: 1vw;
 		margin-top: 20vh;
