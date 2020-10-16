@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 3.713em;
+}
+
+section{
+    width: 73%;
+    float: right;
+ }
+
+aside{
+    width: 25%;
+    float: left;
+    text-align: right;
+    margin-right:1.3;
+    color: grey;
+}
+
+h3{
+	padding-top: 1.1em;
+}
+
+h4{
+	padding-top: 1.3em;
+}
+
+ul,li {
+	padding-bottom: 1em;
+}
+
+p{
+	padding-top: 0.326em;
+	padding-bottom: 0.326em;
+}
+
+.numbering, .endnote {
+	padding-top: 0.326em;
+	padding-left: 3.713em;
+	line-height: 1.728em;
+}
+
+img {
+	width: 3.038em;
+	height: 3.038em;
+	padding-top: 3.038em;
+	padding-bottom: 3.038em;
+	margin-left: auto;
+	float:right;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	height: 60%;
+	text-align: left;
+}
+
+tr,td,th{
+	border: 1px solid black;
+
+}
+td,th{
+	padding-left: 6px;
+
+}
+hr {
+	margin-top: 1em;
+}
+
+@media (max-width: 480px) {
+	main {
+		width: 90%;
+		margin: 2%;
+	}
+	section {
+		width: 90%;
+	}
+	table {
+		padding-top: 1em;
+		width: 80%;
+	}
+	aside {
+		width: 70%;
+		text-align: left;
+		padding-bottom: 1%;
+		padding-top: 0 !important;
+		padding-left: 20%;
+	}
+	.numbering, .endnote {
+	padding-left: 1.65em;
+	line-height: 2.025em;
+	}
+}

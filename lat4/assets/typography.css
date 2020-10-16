@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+@font-face {
+    font-family: 'athelasregular';
+    src: url('fonts/Athelas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 3.713em;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 550;
+	font-size: 2.925em;
+}
+
+.deck {
+	font-family: 'athelasregular', serif;
+	font-weight: 700;
+	font-size: 1.3em;
+	line-height: 1.65em;
+	padding-top: 0.867em;
+	padding-bottom: 1.3em;
+}
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 550;
+	font-size: 1.65em;
+}
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 550;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+aside {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	color: grey;
+}
+p {
+	font-family: 'athelasregular', serif;
+	font-weight: 400;
+	font-size: 1.3em;
+	line-height: 1.65em;
+}
+
+table {
+	font-family: 'Source Sans Pro',sans-serif;
+	font-weight:400;
+	font-size: 1.3em;
+}
+.numbering {
+	font-family: 'athelasregular', serif;
+	font-weight:500;
+	font-size:1.3em;
+	line-height:1.65em;
+
+}
+
+.endnote {
+	font-family: 'athelasregular', serif;
+	font-weight:400;
+	font-size:1.1em;
+	line-height:1.65em;
+}
+
+@media (max-width: 480px) {
+h1 {
+	font-size: 3.038em;
+}
+
+h2 {
+	font-size: 2.025em;
+}
+.deck {
+	font-weight: 700;
+	font-size: 1.1em;
+}
+h3 {
+	font-size: 1.15em;
+}
+h4 {
+	font-size: 1.35em;
+	text-align: center;
+}
+
+aside {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	color: grey;
+}
+p {
+	font-weight: 100;
+	font-size: 1.1em;
+	line-height: 1.65em;
+}
+
+table {
+	font-size: 1.1em;
+}
+.numbering {
+	font-size:1.1em;
+	line-height:1.65em;
+
+}
+
+.endnote {
+	font-size:0.9em;
+	line-height:1.65em;
+
+}
