@@ -267,9 +267,9 @@ p {
 }
 
 .about p {
-	font-size : 16px;
+	font-size : 18px ;
 	line-height : 20px;
-	padding : 30px;
+	padding : 5px 20px;
 }
 	
 .bullets {
