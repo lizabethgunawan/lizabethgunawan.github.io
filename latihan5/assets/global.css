@@ -76,6 +76,11 @@ navbar li a:hover {
   padding: 10px;
 }
 
+.scrolling { 
+  overflow: auto;
+  max-height:98%;
+}
+
 .about_foto {
 width: 100%;
 left: 95px;
