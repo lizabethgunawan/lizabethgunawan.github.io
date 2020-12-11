@@ -1,0 +1,109 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='assets/global.css'>
+	<link rel='stylesheet' type='text/css' href='assets/typography.css'>
+	<script src="assets/menu_data.js"></script>
+</head>
+<body>
+	<main>
+	<navbar>
+		<a href="javascript:void(0);" class="nav-toggle garis" id="nav-toggle" onclick="toggle()">=</a>
+		<img class= "navbar-brand wwd" src="assets/wwd-01.png">
+  	 <ul id = "nav-links" class="nav-links flex-child-2 active">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+        <li><a href="#Events">EVENTS</a></li>
+        <li><a href="#Material">MATERIAL</a></li>
+        <li><a href="#Film FESTIVAL">FILM FESTIVAL</a></li>
+        <li><a href="#Messages">MESSAGES</a></li>
+        <li><a href="#Media">MEDIA</a></li>
+     </ul>
+    </navbar>
+    <div class="background">
+    		<div class="none"></div>
+    		<div class="involved"><a href= "getinvolved.html">Get Involved</a></div>
+			<h1>Sustaining all life on Earth</h1>
+			<div class="flex-container">
+				<div class = "flex-child container"><img class= "orang" src="assets/orang-1.png" alt="António Guterres">
+				<div class="button2">António Guterres</div>
+				<div class="jabatan">Secretary-General United Nations</div>
+				</div>
+				<div class = "flex-child container">
+				<img class="orang" src="assets/orang-2.png" alt="Ivonne Higuero">
+				<div class="button2">Ivonne Higuero</div>
+				<div class="jabatan">Secretary-General CITES Secretariat</div>
+			</div>
+		</div>
+	</div>
+		<div class="kotak_1">
+		<h1>About</h1>
+			<img class= "about_foto" src="assets/about.png">
+			<p>On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3 March – the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.
+
+			The UNGA resolution also designated the CITES Secretariat as the facilitator for the global observance of this special day for wildlife on the UN calendar. World Wildlife Day has now become the most important global annual event dedicated to wildlife.
+
+			World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all Life on Earth", encompassing all wild animal and plant species as key components of the world's biodiversity. This aligns with UN Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating poverty, ensuring sustainable use of resources, and on conserving life both on land and below water to halt biodiversity loss.</p>
+			<p><a href="javascript:void(0);" onclick="readmore()">Read more...</a></p>
+		</div>
+		</div>
+		<div class="kotak_2">
+		<h1>Partners</h1>
+			<img class="logo" src="assets/logo.png">
+		</div>
+	</main>
+</body>
+<footer>
+	<div class="flex-container">
+		<div class="flex-child">
+			<h4>Get Involved</h4>
+				<ul class="bullets">
+					<li><a href="getinvolved.html">How to celebrate</a></li>
+				</ul>
+		</div>
+		<div class="flex-child">
+		<h4>Events</h4>
+		<ul class="bullets">
+			<li>Events Map</li>
+			<li>Add Your Event</li>
+		</ul>
+		</div>
+		<div class="flex-child">
+		<h4>Material</h4>
+		<ul class="bullets">
+			<li>Posters</li>
+			<li>Logos</li>
+			<li>Social Media Kit</li>
+			<li>Action Card</li>
+		</ul>
+		</div>
+	</div>
+		<h4>CITES Secretariat</h4>
+		<div class="address">11 Chemin des Anémones
+	CH-1219 Châtelaine, Geneva</div>
+		<div class="address">Email : wildlifeday@cites.org</div>
+		<img class = "socmed" src="assets/socmed-1.png">
+		<img class = "socmed" src="assets/socmed-2.png">
+		<img class = "socmed" src="assets/socmed-3.png">
+		<img class = "socmed" src="assets/socmed-4.png">
+		<nav>
+			<a href="about.html">About</a>
+			<a href="back.html">Events</a>
+			<a href="home.html">Home</a>
+		</nav>
+		<div class="last">This site is managed by the CITES Secretariat
+Designed by Elizabeth | El-E.com</div>
+</footer>
+</html>
+
+    <script type="text/javascript">
+      function toggle() {
+          if(document.getElementById("nav-links").style.left=="0px"){
+            document.getElementById("nav-links").style.left = "-1000px";
+          }else{
+            document.getElementById("nav-links").style.left = "0px";
+          }
+}
+    </script>
