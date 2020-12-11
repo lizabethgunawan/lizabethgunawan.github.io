@@ -5,12 +5,10 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' href='assets/global.css'>
 	<link rel='stylesheet' type='text/css' href='assets/typography.css'>
-	<script src="assets/menu_data.js"></script>
 </head>
 <body>
-	<main>
-		<h1>(BELUM SELESAI. JGN DINILAI DULU YA, PAK/BU. DIHITUNG TELAT SAJAAA. TERIMA KASIH:)))<h1>
-	<navbar>
+	<main class="main-home">
+		<navbar>
 		<a href="javascript:void(0);" class="nav-toggle garis" id="nav-toggle" onclick="toggle()">=</a>
 		<img class= "navbar-brand wwd" src="assets/wwd-01.png">
   	 <ul id = "nav-links" class="nav-links flex-child-2 active">
@@ -23,88 +21,156 @@
         <li><a href="#Media">MEDIA</a></li>
      </ul>
     </navbar>
-    <div class="background">
-    		<div class="none"></div>
-    		<div class="involved"><a href= "getinvolved.html">Get Involved</a></div>
-			<h1>Sustaining all life on Earth</h1>
-			<div class="flex-container">
-				<div class = "flex-child container"><img class= "orang" src="assets/orang-1.png" alt="António Guterres">
+    <img src="assets/web-03.jpg" class="desktop">
+    <img src="assets/web-01.jpg" class="mobile">
+		<div class="involved"><a href= "getinvolved.html">Get Involved</a></div>
+		<h1 style="margin-bottom: 20px;">Sustaining all life on Earth</h1>
+		<div class="flex-container">
+			<div class = "flex-child">
+				<img class= "orang" src="assets/orang-1.png" alt="António Guterres">
 				<div class="button2">António Guterres</div>
 				<div class="jabatan">Secretary-General United Nations</div>
-				</div>
-				<div class = "flex-child container">
-				<img class="orang" src="assets/orang-2.png" alt="Ivonne Higuero">
-				<div class="button2">Ivonne Higuero</div>
+			</div>
+			<div class = "flex-child">
+				<img class="orang" src="assets/orang-2.png" alt="Ivonne Higuero" style="margin-top:15px">
+				<div class="button2 ">Ivonne Higuero</div>
 				<div class="jabatan">Secretary-General CITES Secretariat</div>
 			</div>
 		</div>
-	</div>
-		<div class="kotak_1">
+		<br>
 		<h1>About</h1>
-			<img class= "about_foto" src="assets/about.png">
-			<p>On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3 March – the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.
-
-			The UNGA resolution also designated the CITES Secretariat as the facilitator for the global observance of this special day for wildlife on the UN calendar. World Wildlife Day has now become the most important global annual event dedicated to wildlife.
-
-			World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all Life on Earth", encompassing all wild animal and plant species as key components of the world's biodiversity. This aligns with UN Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating poverty, ensuring sustainable use of resources, and on conserving life both on land and below water to halt biodiversity loss.</p>
-			<p><a href="javascript:void(0);" onclick="readmore()">Read more...</a></p>
-		</div>
-		</div>
-		<div class="kotak_2">
-		<h1>Partners</h1>
-			<img class="logo" src="assets/logo.png">
+		<div class="flex-container">
+			<div class="flex-child" style="padding-right:0!important;padding-left:0!important;">
+				<img class= "about_foto" src="assets/about.png">
+			</div>
+			<div class="flex-child">
+				<p>On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3 March – the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.</p>
+				<br>
+				<p>The UNGA resolution also designated the CITES Secretariat as the facilitator for the global observance of this special day for wildlife on the UN calendar. World Wildlife Day has now become the most important global annual event dedicated to wildlife.</p>
+				<br>
+				<p>World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all Life on Earth", encompassing all wild animal and plant species as key components of the world's biodiversity. This aligns with UN Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating poverty, ensuring sustainable use of resources, and on conserving life both on land and below water to halt biodiversity loss.</p>
+				<p><a href="javascript:void(0);" onclick="readmore()">Read more...</a></p>
+			</div>
 		</div>
 	</main>
-</body>
-<footer>
-	<div class="flex-container">
-		<div class="flex-child">
-			<h4>Get Involved</h4>
-				<ul class="bullets">
-					<li><a href="getinvolved.html">How to celebrate</a></li>
-				</ul>
-		</div>
-		<div class="flex-child">
-		<h4>Events</h4>
-		<ul class="bullets">
-			<li>Events Map</li>
-			<li>Add Your Event</li>
-		</ul>
-		</div>
-		<div class="flex-child">
-		<h4>Material</h4>
-		<ul class="bullets">
-			<li>Posters</li>
-			<li>Logos</li>
-			<li>Social Media Kit</li>
-			<li>Action Card</li>
-		</ul>
+
+	<div class="about-container" id="about" onclick="readmore()">
+		<div class="about">
+
+			<h1 style="padding-left:20px!important;padding-top:20px!important">About</h1>
+			<div class="flex-container">
+				<div class="flex-child">
+					<p>On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3 March – the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.</p>
+					<br>
+					<p>The UNGA resolution also designated the CITES Secretariat as the facilitator for the global observance of this special day for wildlife on the UN calendar. World Wildlife Day has now become the most important global annual event dedicated to wildlife.</p>
+					<br>
+					<p>World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all Life on Earth", encompassing all wild animal and plant species as key components of the world's biodiversity. This aligns with UN Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating poverty, ensuring sustainable use of resources, and on conserving life both on land and below water to halt biodiversity loss.</p>
+				</div>
+				<div class="flex-child">
+					<p>Earth is home to countless species of fauna and flora – too many to even attempt counting. This rich diversity, and the billions of years during which its myriad elements have interacted, are precisely what has made our planet inhabitable for all living creatures, including humans. Historically, we have depended on the constant interplay and interlinkages between all elements of the biosphere for all our needs: the air we breathe, the food we eat, the energy we use, and the materials we need for all purposes. However, unsustainable human activities and overexploitation of the species and natural resources that make up the habitats and ecosystems of all wildlife are imperiling the world’s biodiversity. Nearly a quarter of all species are presently at risk of going extinct in the coming decades, and their demise would only speed up the disappearance of countless others, putting us in danger as well.</p>
+					<br>
+					<p>On World Wildlife Day 2020, we will celebrate the special place of wild plants and animals in their many varied and beautiful forms as a component of the world’s biological diversity. We will work to raise awareness of the multitude of benefits of wildlife to people, particularly to those communities who live in closest proximity to it, and we will discuss the threats they are facing and the urgent need for governments, civil society, private sector actors and individuals to add their voices and take actions to help conserve wildlife and ensure its continued use is sustainable.</p>
+					<br>
+					<p><strong>Tap anywhere to back</strong></p>
+				</div>
+			</div>
 		</div>
 	</div>
-		<h4>CITES Secretariat</h4>
-		<div class="address">11 Chemin des Anémones
-	CH-1219 Châtelaine, Geneva</div>
-		<div class="address">Email : wildlifeday@cites.org</div>
-		<img class = "socmed" src="assets/socmed-1.png">
-		<img class = "socmed" src="assets/socmed-2.png">
-		<img class = "socmed" src="assets/socmed-3.png">
-		<img class = "socmed" src="assets/socmed-4.png">
-		<nav>
-			<a href="about.html">About</a>
-			<a href="back.html">Events</a>
-			<a href="home.html">Home</a>
-		</nav>
-		<div class="last">This site is managed by the CITES Secretariat
-Designed by Elizabeth | El-E.com</div>
-</footer>
-</html>
 
-    <script type="text/javascript">
-      function toggle() {
-          if(document.getElementById("nav-links").style.left=="0px"){
-            document.getElementById("nav-links").style.left = "-1000px";
-          }else{
-            document.getElementById("nav-links").style.left = "0px";
-          }
-}
-    </script>
+	<div class="flex-container partners">
+		<div class="flex-child">
+			<h1>Partners</h1>
+		</div>
+		<div class="flex-child">
+			<img class="logo" src="assets/logo.png">
+		</div>
+	</div>
+	<footer>
+			<div class="flex-container">
+				<div class="flex-child footer-involved">
+					<div class="center-element">
+						<h4>Get Involved</h4>
+						<ul class="bullets">
+							<li><a href="getinvolved.html">How to celebrate</a></li>
+						</ul class="bullets">
+					</div>
+				</div>
+				<div class="flex-child footer-events">
+					<div class="center-element">
+						<h4>Events</h4>
+						<ul class="bullets">
+							<li>Events Map</li>
+							<li>Add Your Event</li>
+						</ul class="bullets">
+					</div>
+				</div>
+				<div class="flex-child footer-material">
+					<div class="center-element">
+						<h4>Material</h4>
+						<ul class="bullets">
+							<li>Posters</li>
+							<li>Logos</li>
+							<li>Social Media Kit</li>
+							<li>Action Card</li>
+						</ul class="bullets">
+					</div>
+				</div>
+			</div>
+			<div class="flex-container footer-secretariat">
+				<div class="flex-child">
+					<div class="center-element">
+						<h4 class="cites">CITES Secretariat</h4>
+						<div class="address">
+							11 Chemin des Anémones CH-1219 Châtelaine, Geneva
+						</div>
+						<div class="address">Email : wildlifeday@cites.org</div>
+					</div>
+				</div>
+				<div class="flex-child">
+					<div class="center-element">
+						<img class = "socmed"  src="assets/socmed-1.png">
+						<img class = "socmed"  src="assets/socmed-2.png">
+						<img class = "socmed"  src="assets/socmed-3.png">
+						<img class = "socmed"  src="assets/socmed-4.png">
+						<nav class="footnav">
+							<a href="javascript:void(0);" onclick="readmore()">About</a>
+							<a href="back.html">Events</a>
+							<a href="home.html">Home</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex-container footer-last">
+				<div class="center-element flex-child" >
+						<p class="last">
+							This site is managed by the CITES Secretariat
+							<br>
+							Designed by Elizabeth | El-E.com
+						</p>
+						<p>a</p>
+					</div>
+			</div>
+
+	</footer>
+	<script type="text/javascript">
+		document.getElementById("about").style.bottom = "-1000px";
+
+		function toggle() {
+				if(document.getElementById("nav-links").style.left=="0px"){
+					document.getElementById("nav-links").style.left = "-1000px";
+				}else{
+					document.getElementById("nav-links").style.left = "0px";
+				}
+		}
+		function readmore() {
+			var x = document.getElementById("about")
+				if(x.style.bottom=="-5000px"){
+					x.style.bottom = "0";
+				}else{
+					x.style.bottom = "-1000px";
+				}
+		}
+	</script>
+</body>
+</html>
